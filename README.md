@@ -29,7 +29,7 @@ operating steps:
 
 3. benchmark
 
-(1) Download `backbones.zip` from `` and place files in `grasp_methods\ckpt`.
+(1) Download `backbones.zip` from `https://drive.google.com/file/d/19FaSnMmUCa8yjpkX-jgucA0D5wRsNWe0/view?usp=drive_link` and place files in `grasp_methods\ckpt`.
 
 (2) Open `scripts\grasp_experiments\test_acc.py`, modify `obj_model_path` to path of obj_models.
 
