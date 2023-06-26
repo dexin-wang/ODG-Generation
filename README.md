@@ -20,7 +20,6 @@ operating steps:
 (6)  run `python scripts\dataset\create_dataset.py`.
 
 
-
 ## 2. Visualize mask and bbox labels
 
 (1) Open `scripts\dataset\visual_mask_bbox.py`, modify `dataset_path` to `dataset path`.
@@ -28,8 +27,7 @@ operating steps:
 (2) run `python scripts\dataset\visual_mask_bbox.py`
 
 
-
-## 3. benchmark
+## 3. Benchmark
 
 (1) Download `backbones.zip` from `https://drive.google.com/file/d/19FaSnMmUCa8yjpkX-jgucA0D5wRsNWe0/view?usp=drive_link` and place files in `grasp_methods\ckpt`.
 
