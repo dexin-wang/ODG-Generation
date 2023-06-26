@@ -1,7 +1,9 @@
 # ODG-Generation
 
 
-1. Generate data sets: Load models, randomly build scenes, render image data, compute grab labels, save data, data enhancement.
+## 1. Generate datasets
+
+Load models, randomly build scenes, render image data, compute grab labels, save data, data enhancement.
 
 operating steps:
 
@@ -19,7 +21,7 @@ operating steps:
 
 
 
-2. Visualize mask and bbox labels ：
+## 2. Visualize mask and bbox labels
 
 (1) Open `scripts\dataset\visual_mask_bbox.py`, modify `dataset_path` to `dataset path`.
 
@@ -27,7 +29,7 @@ operating steps:
 
 
 
-3. benchmark
+## 3. benchmark
 
 (1) Download `backbones.zip` from `https://drive.google.com/file/d/19FaSnMmUCa8yjpkX-jgucA0D5wRsNWe0/view?usp=drive_link` and place files in `grasp_methods\ckpt`.
 
@@ -40,7 +42,7 @@ operating steps:
 (5) run `scripts\grasp_experiments\test_AP.py`
 
 
-4. Future work
+## 4. Future work
 
 Translate comments into English.
 
